@@ -1,4 +1,6 @@
 
+#![doc = include_str!("../README.md")]
+
 use std::fs;
 use sha2::{Digest, Sha256};  
 use hex;                       
